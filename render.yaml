@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: darou-salaam-commerce
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node server.js
